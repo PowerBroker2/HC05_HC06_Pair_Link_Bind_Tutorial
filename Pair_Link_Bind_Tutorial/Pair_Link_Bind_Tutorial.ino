@@ -312,7 +312,7 @@ void sendAT_master(String command)
       if ((temp != -1) && (index < MAX_NUM_BT_DEVICES))
       {
         //reformat the new address and save it to the list of bluetooth device adresses
-        addressList[index] = temp.substring(temp.indexOf(":") + 1, temp.indexOf(":") + 15);
+        addressList[index] = temp.substring(temp.indexOf(":") + 1, temp.indexOf(","));
         addressList[index].replace(":", ",");
 
         index++;
