@@ -1,4 +1,5 @@
 # HC05/HC06 Pair Link Bind Tutorial
+[![GitHub version](https://badge.fury.io/gh/PowerBroker2%2FHC05_HC06_Pair_Link_Bind_Tutorial.svg)](https://badge.fury.io/gh/PowerBroker2%2FHC05_HC06_Pair_Link_Bind_Tutorial)<br /><br />
 Code to automatically, pair, link, and bind an HC-05 with an HC-06 bluetooth module. This sketch will work with ANY Arduino as long as the modules/Arduino are wired correctly.
 
 
